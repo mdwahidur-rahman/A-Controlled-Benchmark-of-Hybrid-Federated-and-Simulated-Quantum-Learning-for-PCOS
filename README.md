@@ -65,7 +65,7 @@ Several steps are resumable and time-budgeted (the original runs were split into
 
 The unit of partition, resampling and federated clients is the duplicate group g0 (same class and identical dihedral-canonical 64-bit dHash). Splits are 0.64 / 0.16 / 0.20 with seeds 0 to 4. Hyperparameters are chosen on validation data only; classical and federated models are refit on train plus validation, the quantum track is not. Metrics use a fixed threshold of 0.5 (positive class = PCOS-positive) and are computed per test partition and averaged. Intervals are 95 percent percentile intervals from 1,000 cluster-bootstrap draws that resample g0 groups, with the same draws shared by every row so that contrasts are paired. Contrasts are called better or worse when the interval excludes zero, equivalent when it includes zero and lies inside the margin (0.5 accuracy points, 0.010 MCC, 0.002 AUC), and inconclusive otherwise. Holm adjustment is applied within families.
 
-## Known limits that a reviewer should keep in mind
+## Important Notes
 
 * A model that sees only image width and height reaches accuracy 98.59 percent and MCC 0.971 under the same duplicate-aware protocol, so the benchmark cannot show that any track learned ovarian morphology on this archive.
 * Encoders are frozen and ImageNet-pretrained; no fine-tuned or from-scratch model was trained.

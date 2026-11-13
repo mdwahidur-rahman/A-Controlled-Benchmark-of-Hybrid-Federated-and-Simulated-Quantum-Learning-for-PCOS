@@ -1,0 +1,218 @@
+{
+ "mobilenetv2_100": {
+  "A_classical": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_dense_p": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.1,
+   "LRC": 0.0003,
+   "HP": 2
+  },
+  "A_dense_w": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.003,
+   "HP": 4
+  },
+  "A_vqc_pairs": {
+   "NQ": 4,
+   "NL": 2,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_dense_p": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 2
+  },
+  "B_dense_w": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.1,
+   "LRC": 0.001,
+   "HP": 4
+  },
+  "B_identity": {
+   "NQ": 8,
+   "NL": 3,
+   "LRS": 0.1,
+   "LRC": 0.003,
+   "HP": 4
+  },
+  "B_vqc_pairs": {
+   "NQ": 6,
+   "NL": 2,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_vqc": {
+   "NQ": 6,
+   "NL": 2,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_vqc_pairs_derg": {
+   "NQ": 4,
+   "NL": 2,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  }
+ },
+ "resnet50": {
+  "A_classical": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_dense_p": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.1,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_dense_w": {
+   "NQ": 8,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.001,
+   "HP": 4
+  },
+  "A_vqc_pairs": {
+   "NQ": 6,
+   "NL": 2,
+   "LRS": 0.1,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_dense_p": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_dense_w": {
+   "NQ": 8,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.001,
+   "HP": 4
+  },
+  "B_identity": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.003,
+   "HP": 4
+  },
+  "B_vqc_pairs": {
+   "NQ": 6,
+   "NL": 4,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_vqc": {
+   "NQ": 6,
+   "NL": 4,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_vqc_pairs_derg": {
+   "NQ": 6,
+   "NL": 2,
+   "LRS": 0.1,
+   "LRC": 0.0003,
+   "HP": 4
+  }
+ },
+ "swin_tiny_patch4_window7_224": {
+  "A_classical": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_dense_p": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.1,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_dense_w": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.001,
+   "HP": 4
+  },
+  "A_vqc_pairs": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_dense_p": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 2
+  },
+  "B_dense_w": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.003,
+   "HP": 4
+  },
+  "B_identity": {
+   "NQ": 4,
+   "NL": 3,
+   "LRS": 0.03,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_vqc_pairs": {
+   "NQ": 8,
+   "NL": 3,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "B_vqc": {
+   "NQ": 8,
+   "NL": 3,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  },
+  "A_vqc_pairs_derg": {
+   "NQ": 6,
+   "NL": 3,
+   "LRS": 0.01,
+   "LRC": 0.0003,
+   "HP": 4
+  }
+ }
+}

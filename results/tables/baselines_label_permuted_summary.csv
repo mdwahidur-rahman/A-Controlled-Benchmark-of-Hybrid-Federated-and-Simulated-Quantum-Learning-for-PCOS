@@ -1,0 +1,12 @@
+encoder,acc,auc
+crossvit_small_240,0.5616,0.4983
+densenet121,0.5446,0.4834
+eca_botnext26ts_256,0.5561,0.48
+efficientnet_b0,0.5482,0.5002
+mobilenetv2_100,0.5574,0.4904
+mobilevit_s,0.563,0.5138
+pvt_v2_b2,0.5591,0.4943
+resnet50,0.5449,0.4695
+resnext50_32x4d,0.5337,0.4844
+swin_tiny_patch4_window7_224,0.5721,0.5078
+twins_pcpvt_small,0.5569,0.4702

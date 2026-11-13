@@ -1,0 +1,9 @@
+family,variant,contrast,n_encoders,mean_diff_pts,encoders_positive,sign_p,wilcoxon_p,encoders_ci_excludes_zero,sign_p_holm,wilcoxon_p_holm
+A_partition,plain,naive - group_g0,11,1.389554,11,0.000977,0.000977,11,0.005859,0.005859
+A_partition,plain,group_g0 - group_g4,11,-0.111024,3,0.226562,0.101562,0,0.226562,0.107422
+A_partition,clahe,naive - group_g0,11,0.965065,11,0.000977,0.000977,11,0.005859,0.005859
+A_partition,clahe,group_g0 - group_g4,11,-0.186212,2,0.06543,0.053711,1,0.130859,0.107422
+A_partition,neutral,naive - group_g0,11,1.951804,11,0.000977,0.000977,11,0.005859,0.005859
+A_partition,neutral,group_g0 - group_g4,11,1.133709,11,0.000977,0.000977,6,0.005859,0.005859
+B_preprocessing,clahe,clahe - plain (group_g0),11,0.587254,11,0.000977,0.000977,6,0.001953,0.001953
+B_preprocessing,neutral,neutral - plain (group_g0),11,-1.055944,0,0.000977,0.000977,8,0.001953,0.001953

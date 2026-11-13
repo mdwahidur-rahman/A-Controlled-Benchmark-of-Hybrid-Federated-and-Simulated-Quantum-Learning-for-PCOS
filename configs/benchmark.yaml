@@ -1,0 +1,54 @@
+# Machine-readable record of the fixed settings behind the reported results.
+# The scripts in pipeline/ hold these constants themselves; tests/test_configs.py checks that this file and the code agree.
+dataset:
+  source: figshare, doi 10.6084/m9.figshare.27682557
+  license: CC BY 4.0
+  n_images: 11784
+  n_positive: 6784        # folder "infected" = PCOS-positive (label 1)
+  n_negative: 5000        # folder "noninfected" = PCOS-negative (label 0)
+  n_byte_unique_files: 3996
+  n_g0_groups: 3255
+  patient_ids: none
+splits:
+  proportions: [0.64, 0.16, 0.20]   # train, validation, test
+  seeds: [0, 1, 2, 3, 4]
+  rules: [group_g0, group_g4, image]
+  unit_of_partition: g0 group (same class and identical dihedral-canonical 64-bit dHash)
+preprocessing_variants: [plain, clahe, neutral]
+encoders:
+  all: [mobilenetv2_100, efficientnet_b0, densenet121, resnet50, pvt_v2_b2, twins_pcpvt_small,
+        swin_tiny_patch4_window7_224, mobilevit_s, eca_botnext26ts_256, crossvit_small_240, resnext50_32x4d]
+  federated: [mobilenetv2_100, swin_tiny_patch4_window7_224, mobilevit_s]
+  quantum: [mobilenetv2_100, swin_tiny_patch4_window7_224, resnet50]
+classical:
+  coarse_C_grid: [0.003, 0.03, 0.3]
+  tuning_trials: {lr_std: 11, lr_pca256: 9, mlp: 6}   # 26 in total
+  selection_metric: validation AUC only
+statistics:
+  threshold: 0.5
+  bootstrap_draws: 1000
+  bootstrap_seed: 2026            # RandomState(2026).multinomial over g0 groups, shared by all rows
+  ece_bins: 10
+  equivalence_margins: {accuracy: 0.005, mcc: 0.010, auc: 0.002}
+  multiplicity: Holm within family (bootstrap p floor 2/(B+1) times family size)
+federated:
+  clients: 10
+  rounds: 100
+  l2: 0.001
+  delta: 1.0e-5
+  partitions: [iid, lab10, lab0.5, lab0.1, qty0.3, feat, comb0.5]
+  dp_partitions: [iid, lab0.5, lab0.1, comb0.5]
+  noise_multipliers: [0.8, 1.2, 2.0, 4.0]
+  group_sampling_rate: 0.1
+  dp_level: duplicate group (not patient)
+quantum:
+  simulator: noiseless statevector, PyTorch
+  default_qubits: 6
+  default_layers: 3
+  max_epochs: 80
+  patience: 15
+  batch_size: 128
+  weight_decay: 0.001
+  default_learning_rates: {compressor: 0.0003, linear_branch: 0.003, slot: 0.03}
+  search: {qubits: [4, 6, 8], layers: [2, 3, 4], slot_lr: [0.01, 0.03, 0.1], configs_per_setting_and_encoder: 24}
+  refit_on_train_plus_validation: false

@@ -1,0 +1,184 @@
+{
+ "n": 11784,
+ "class_counts": {
+  "infected": 6784,
+  "noninfected": 5000
+ },
+ "family_by_class": {
+  "infected": {
+   "lc_image": 2512,
+   "plain": 1024,
+   "setA": 1024,
+   "setB": 1024,
+   "rotate": 400,
+   "rot_right": 400,
+   "resize": 400
+  },
+  "noninfected": {
+   "resize": 1928,
+   "plain": 1024,
+   "setA": 1024,
+   "setB": 1024
+  }
+ },
+ "distinct_wh": 1370,
+ "wh_class_exclusive_images_pct": 100.0,
+ "top_wh_by_class": {
+  "infected": {
+   "300x300": 1590,
+   "225x225": 528,
+   "343x343": 480,
+   "320x320": 444,
+   "299x266": 412,
+   "280x259": 400
+  },
+  "noninfected": {
+   "984x848": 1433,
+   "850x578": 960,
+   "630x436": 859,
+   "315x160": 727,
+   "848x984": 396,
+   "578x850": 262
+  }
+ },
+ "single_feature_auc_infected_as_positive": {
+  "width": 0.0546,
+  "height": 0.1433,
+  "aspect": 0.2142,
+  "bytes": 0.1657,
+  "bpp": 0.8951,
+  "q0": 0.3526,
+  "mean": 0.8325,
+  "std": 0.7597
+ },
+ "exact_dup_groups": 1956,
+ "exact_dup_images": 9744,
+ "exact_dup_groups_cross_class": 0,
+ "dHash_T0": {
+  "clusters": 3234,
+  "multi_image_clusters": 1591,
+  "images_in_multi": 10141,
+  "largest": 20,
+  "cross_class_clusters": 21,
+  "cross_family_clusters": 1040,
+  "pairs": 38071
+ },
+ "dHash_T4": {
+  "clusters": 1969,
+  "multi_image_clusters": 1363,
+  "images_in_multi": 11178,
+  "largest": 228,
+  "cross_class_clusters": 40,
+  "cross_family_clusters": 931,
+  "pairs": 55399
+ },
+ "dHash_T8": {
+  "clusters": 1104,
+  "multi_image_clusters": 834,
+  "images_in_multi": 11514,
+  "largest": 510,
+  "cross_class_clusters": 44,
+  "cross_family_clusters": 587,
+  "pairs": 105612
+ },
+ "index_pair_test": {
+  "infected:plain~setA": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  },
+  "infected:plain~setB": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  },
+  "infected:setA~setB": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  },
+  "noninfected:plain~setA": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  },
+  "noninfected:plain~setB": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  },
+  "noninfected:setA~setB": {
+   "shared_idx": 1024,
+   "same_cluster_T8_pct": 100.0,
+   "same_md5_pct": 100.0
+  }
+ },
+ "family_size_summary": {
+  "infected|lc_image": {
+   "n": 2512,
+   "median_w": 271.0,
+   "median_h": 270.0,
+   "median_bytes": 21585.5
+  },
+  "infected|plain": {
+   "n": 1024,
+   "median_w": 299.5,
+   "median_h": 283.0,
+   "median_bytes": 13770.0
+  },
+  "infected|resize": {
+   "n": 400,
+   "median_w": 149.0,
+   "median_h": 133.0,
+   "median_bytes": 8104.0
+  },
+  "infected|rot_right": {
+   "n": 400,
+   "median_w": 299.5,
+   "median_h": 299.5,
+   "median_bytes": 20529.0
+  },
+  "infected|rotate": {
+   "n": 400,
+   "median_w": 283.0,
+   "median_h": 299.5,
+   "median_bytes": 21003.5
+  },
+  "infected|setA": {
+   "n": 1024,
+   "median_w": 299.5,
+   "median_h": 283.0,
+   "median_bytes": 13770.0
+  },
+  "infected|setB": {
+   "n": 1024,
+   "median_w": 299.5,
+   "median_h": 283.0,
+   "median_bytes": 13770.0
+  },
+  "noninfected|plain": {
+   "n": 1024,
+   "median_w": 850.0,
+   "median_h": 578.0,
+   "median_bytes": 56428.5
+  },
+  "noninfected|resize": {
+   "n": 1928,
+   "median_w": 630.0,
+   "median_h": 848.0,
+   "median_bytes": 75281.0
+  },
+  "noninfected|setA": {
+   "n": 1024,
+   "median_w": 850.0,
+   "median_h": 578.0,
+   "median_bytes": 56428.5
+  },
+  "noninfected|setB": {
+   "n": 1024,
+   "median_w": 850.0,
+   "median_h": 578.0,
+   "median_bytes": 56428.5
+  }
+ }
+}

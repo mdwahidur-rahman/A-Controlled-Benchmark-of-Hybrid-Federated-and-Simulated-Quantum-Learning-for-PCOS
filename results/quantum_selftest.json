@@ -1,0 +1,21 @@
+{
+ "kron_vs_gate_by_gate_maxerr_ring": 7.216449660063518e-16,
+ "unitarity_maxerr_ring": 3.1086256215113985e-15,
+ "kron_vs_gate_by_gate_maxerr_pairs": 8.881784197001252e-16,
+ "unitarity_maxerr_pairs": 1.776356841048501e-15,
+ "kron_vs_gate_by_gate_maxerr_none": 7.771561172376096e-16,
+ "unitarity_maxerr_none": 1.7763920941214555e-15,
+ "closed_form_vs_simulator_maxerr": 1.2212453270876722e-15,
+ "bell_Z0Z1": 1.0,
+ "bell_Z0": 2.220446049250313e-16,
+ "slot_params": {
+  "vqc": 54,
+  "vqc_pairs": 54,
+  "vqc_noent": 54,
+  "dense_w": 42,
+  "dense_p": 58,
+  "identity": 0
+ },
+ "n_qubits": 6,
+ "layers": 3
+}

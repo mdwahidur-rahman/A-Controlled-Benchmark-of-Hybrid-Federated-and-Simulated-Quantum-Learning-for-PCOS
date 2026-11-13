@@ -1,0 +1,46 @@
+{
+ "mobilenetv2_100": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/mobilenetv2_100_ra-b33bc2c4.pth",
+  "file": "mobilenetv2_100_ra-b33bc2c4.pth"
+ },
+ "efficientnet_b0": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/efficientnet_b0_ra-3dd342df.pth",
+  "file": "efficientnet_b0_ra-3dd342df.pth"
+ },
+ "densenet121": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/densenet121_ra-50efcf5c.pth",
+  "file": "densenet121_ra-50efcf5c.pth"
+ },
+ "resnet50": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/resnet50_a1_0-14fe96d1.pth",
+  "file": "resnet50_a1_0-14fe96d1.pth"
+ },
+ "pvt_v2_b2": {
+  "url": "https://github.com/whai362/PVT/releases/download/v2/pvt_v2_b2.pth",
+  "file": "pvt_v2_b2.pth"
+ },
+ "twins_pcpvt_small": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vt3p-weights/twins_pcpvt_small-e70e7e7a.pth",
+  "file": "twins_pcpvt_small-e70e7e7a.pth"
+ },
+ "swin_tiny_patch4_window7_224": {
+  "url": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth",
+  "file": "swin_tiny_patch4_window7_224.pth"
+ },
+ "mobilevit_s": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-mvit-weights/mobilevit_s-38a5a959.pth",
+  "file": "mobilevit_s-38a5a959.pth"
+ },
+ "eca_botnext26ts_256": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-attn-weights/eca_botnext26ts_c_256-95a898f6.pth",
+  "file": "eca_botnext26ts_c_256-95a898f6.pth"
+ },
+ "crossvit_small_240": {
+  "url": "https://github.com/IBM/CrossViT/releases/download/weights-0.1/crossvit_small_224.pth",
+  "file": "crossvit_small_224.pth"
+ },
+ "resnext50_32x4d": {
+  "url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/resnext50_32x4d_a1h-0146ab0a.pth",
+  "file": "resnext50_32x4d_a1h-0146ab0a.pth"
+ }
+}

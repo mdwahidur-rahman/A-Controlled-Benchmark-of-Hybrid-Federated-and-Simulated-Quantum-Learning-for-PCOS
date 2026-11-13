@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+data/raw/
+weights/
+features/
+results/heads/
+results/tuning/
+results/fl/*
+!results/fl/tuned_*.json
+results/quantum*/
+results/performance/
+results/gradcam/
+results/xai_arms/
+figures/preview/
+*.npz

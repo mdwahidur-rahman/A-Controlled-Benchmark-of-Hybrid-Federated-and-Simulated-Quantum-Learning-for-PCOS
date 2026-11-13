@@ -78,4 +78,4 @@ The unit of partition, resampling and federated clients is the duplicate group g
 
 ## Citation
 
-\[CITATION REQUIRED: manuscript reference and archive DOI to be added by the authors\]
+Will be add
